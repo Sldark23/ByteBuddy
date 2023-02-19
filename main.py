@@ -18,8 +18,7 @@ class AmiguinhoVirtual:
       print('haha vc não me asertou')
         
       
-  
-
+ 
         
       # Criando uma instância do AmiguinhoVirtual
 amiguinho = AmiguinhoVirtual()
@@ -43,5 +42,7 @@ while True:
     elif comando == "go home":
       print('carregando')
       break
+    elif comando == "help":
+      print('meu site para ajuda vc a usar os meu comandos : https://ByteBuddyweb.hostsitemaker.repl.co')
     else:
         print("Desculpe, eu não entendi o que você quer que eu faça.")
